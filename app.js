@@ -9,8 +9,6 @@ app.set('views', __dirname);
 app.set('view engine', 'html');
 app.use(express.static(path.join(__dirname, 'public')));
 
-//console.print("hello");
-
 app.get('/', function(req, res){
     res.render('index');});
 
